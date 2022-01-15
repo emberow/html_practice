@@ -1,0 +1,96 @@
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+p {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+
+/* 超連結樣式 */
+/* 改變a的初始狀態 */
+/* a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 30px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+} */
+/* 改變滑鼠移動到文字上面以及點擊的狀態 */
+/* a:hover, a:active {
+  background-color: blue;
+} */
+
+/* 將html內class = show_image的css改變 */
+.show_image {
+  background-image: url('cat2.gif');
+}
+
+body {
+    background-image: url('background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+table, th, td {
+    border: 1px solid black;
+    
+    
+/* 避免有雙線的邊框 */
+    border-collapse: collapse;
+}
+th, td {
+  /* border-radius: 10px; 使表格邊框圓弧形*/
+  /* border-style: dotted; 使表格邊框有虛線 */
+  border-color: #ff0000;/*邊框顏色*/
+  /* background-color: #96D4D4;表格背景顏色 */
+}
+
+th {
+  text-align: left;
+}
+
+/* 偶數的tr會被改變顏色 */
+/* tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+} */
+/* 偶數的th td會被改變顏色 */
+/* th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+} */
+
+/* 屬標移到表格上所在的那一排tr都會改變顏色 */
+tr:hover {
+  background-color: #D6EEEE;
+}
+
+/* 將html內class=city的css改變 */
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+/*將html內id = myHeader樣式改變*/
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+} 
+
+.add_border{
+  border: 1px solid black;
+}
+
+/* 用於排版，使下一個板塊不是往下接，而是往右接 */
+.float_left_text{
+  float: left;
+  width: 33%;
+}
